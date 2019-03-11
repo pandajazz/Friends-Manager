@@ -12,6 +12,7 @@ export const InactiveFriends = ({
           {list.map((friend) => (
             <li key={friend.name}>
               <span>{friend.name}</span>
+              <br />
               <Button 
                 name= "Activate"
                 onClick={() => onToggleFriend(friend.name)} />

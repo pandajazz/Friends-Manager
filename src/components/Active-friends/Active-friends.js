@@ -13,6 +13,7 @@ export const ActiveFriends = ({
           {list.map((friend) => (
             <li key={friend.name}>
               <span>{friend.name}</span>
+              <br />
               <Button 
                 name= "Remove"
                 onClick={() => onRemoveFriend(friend.name)} />
