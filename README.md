@@ -1,3 +1,46 @@
+# React Friends Planner App
+
+A simple App for managing Friends, implemented with React.
+
+## Home Page
+
+![alt text](public/images/homepage.png)
+
+## Objectives of the exercise
+
+Getting confident at using React for building UI and giving them interaction with some functionalities. 
+A Friends Manager App, divided into 2 unordered lists: Active Friends, with two buttons with different usage (Remove or Deactivate - setting the state from Active to Inactive), and Inactive Friends with an activate Button (setting the state from Inactive to Active).
+We add new Friends in the Active section, from the Input type and with the Submit button.
+We can clear the app, removing all the elements in the lists, pressing the Clear All button.
+
+## Main challenges that I've faced
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
