@@ -56,6 +56,16 @@ We can clear the app, removing all the elements in the lists, pressing the Clear
 
 
 
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
