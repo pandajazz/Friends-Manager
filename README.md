@@ -15,7 +15,22 @@ We can clear the app, removing all the elements in the lists, pressing the Clear
 
 ## Main challenges that I've faced
 
--
+- Create stateless functional components (Input and Button): assigning props (name, type, value, onChange, onClick) with destructuring
+- Create stateless functional components (Active and Inactive Friends): assigning props (list, onRemoveFriend, onToggleFriend) with destructuring, working with keys for lists and methods - .map()
+- Create stateful class component (App) receiving props from the stateless imported components and managing its internal state (array of objects with two key-value pairs: friends.name and friend.active/inactive)
+- Add an initial state to the class constructor
+- Manage and update the current state with setState()
+- Handle events (Update - AddFriend - RemoveFriend - Toggle) and bind them using arrow functions
+- Collect new data (Submit/HandleAddFriend) in the Active Friends list
+- Changing the state with Deactivate (setting the state from Active to Inactive with HandleToggleFriend) or activate (setting the state from Inactive to Active with HandleToggleFriend) and moving data from a list to the other one.
+- Clear the current state (Clear All)
+
+## Topics 
+- lists and Keys
+- Destructuring assignment and arrow functions
+- Separation of concerns (organising components in different files, working with modules and imported/exported (named or default) Elements)
+- Array prototypes / .concat() - .find() - .filter() - .map() 
+
 
 
 
